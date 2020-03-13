@@ -47,6 +47,9 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .header .logo {
@@ -67,13 +70,10 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
 }
 
 .header .nav a {
-  margin-right: 160px;
+  margin-right: 100px;
   font-size: 20px;
   text-decoration: none;
   color: #141414;
@@ -117,7 +117,7 @@ a.anchor {
   background-repeat: no-repeat;
   background-size: auto;
   background-position: right top;
-  min-height: 82%;
+  min-height: 79%;
   padding-top: 60px;
 }
 
@@ -228,7 +228,6 @@ a.anchor {
     font-size: 22px;
   }
   .header .nav a {
-    margin-right: 100px;
     font-size: 18px;
   }
   #hero {
