@@ -50,9 +50,6 @@ body {
 }
 
 .header .logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -61,14 +58,6 @@ body {
   color: rgba(79, 202, 21, 0.93);
   font-weight: 900;
   font-size: 22px;
-}
-
-.header .logo div:first-child {
-  font-size: 19px;
-  text-align: center;
-  line-height: 0.9;
-  width: 35px;
-  color: #141414;
 }
 
 .header .nav {
@@ -156,7 +145,8 @@ body {
 }
 
 #reports .report:nth-child(3) {
-  font-size: 28px;
+  letter-spacing: 0px;
+  font-size: 18px;
 }
 
 #contacts {

@@ -40,20 +40,19 @@ body {
   display: flex;
   margin-bottom: 20px;
   .logo {
-    display: flex;
     align-items: center;
     width: 255px;
     margin-left: 48px;
     color: rgba(79, 202, 21, 0.93);
     font-weight: 900;
     font-size: 22px;
-    div:first-child {
-      font-size: 19px;
-      text-align: center;
-      line-height: 0.9;
-      width: 35px;
-      color: #141414;
-    }
+    // div:first-child {
+    //   font-size: 19px;
+    //   text-align: center;
+    //   line-height: 0.9;
+    //   width: 35px;
+    //   color: #141414;
+    // }
   }
   .nav {
     display: flex;
@@ -128,7 +127,8 @@ body {
       text-decoration: underline;
     }
     &:nth-child(3) {
-      font-size: 28px;
+      letter-spacing: 0px;
+      font-size: 18px;
     }
   }
 }
