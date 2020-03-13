@@ -40,11 +40,20 @@ body {
   display: flex;
   margin-bottom: 20px;
   .logo {
+    display: flex;
+    align-items: center;
     width: 255px;
     margin-left: 48px;
     color: rgba(79, 202, 21, 0.93);
     font-weight: 900;
     font-size: 22px;
+    div:first-child {
+      font-size: 19px;
+      text-align: center;
+      line-height: 0.9;
+      width: 35px;
+      color: #141414;
+    }
   }
   .nav {
     display: flex;
@@ -118,6 +127,9 @@ body {
     &:hover {
       text-decoration: underline;
     }
+    &:nth-child(3) {
+      font-size: 28px;
+    }
   }
 }
 
@@ -143,7 +155,9 @@ body {
   border-top: 1px solid #e5e5e5;
   padding: 16px 56px;
   font-weight: 700;
-
+  .footer--gray {
+    font-size: 16px;
+  }
   .mir4ri {
     text-decoration: none;
     color: #4fca15;
