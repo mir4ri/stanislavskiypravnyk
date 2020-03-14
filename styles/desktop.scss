@@ -17,7 +17,9 @@ body {
 }
 
 .flex {
+  display: -webkit-box;
   display: flex;
+  -webkit-box-pack: justify;
   justify-content: space-between;
 }
 
@@ -31,16 +33,21 @@ body {
 
 .header {
   top: 0;
+  position: -webkit-sticky;
   position: sticky;
   z-index: 999;
   padding: 18px 0;
   background-color: #fcfcfc;
   border-bottom: 1px solid #e5e5e5;
+  -webkit-box-align: center;
   align-items: center;
+  display: -webkit-box;
   display: flex;
   margin-bottom: 20px;
+  -webkit-box-pack: justify;
   justify-content: space-between;
   .logo {
+    -webkit-box-align: center;
     align-items: center;
     width: 250px;
     margin-left: 48px;
@@ -49,7 +56,9 @@ body {
     font-size: 22px;
   }
   .nav {
+    display: -webkit-box;
     display: flex;
+    -webkit-box-pack: center;
     justify-content: center;
     a {
       margin-right: 100px;
@@ -57,6 +66,7 @@ body {
       text-decoration: none;
       color: $black;
       font-weight: 700;
+      -webkit-transition: $animate;
       transition: $animate;
       position: relative;
       cursor: pointer;
@@ -68,7 +78,9 @@ body {
         width: 0px;
         height: 4px;
         margin: 4px 0 0;
+        -webkit-transition: $animate;
         transition: $animate;
+        -webkit-transition-duration: 0.47s;
         transition-duration: 0.47s;
         opacity: 0;
         background-color: rgba(79, 202, 21, 0.93);
@@ -137,7 +149,9 @@ a.anchor {
   margin-bottom: 20px;
   .grid-container {
     margin-left: 56px;
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: (50%) [2];
     grid-template-columns: repeat(2, 50%);
     font-size: 32px;
     font-weight: 700;
@@ -177,7 +191,9 @@ a.anchor {
   }
 
   .flex {
+    display: -webkit-box;
     display: flex;
+    -webkit-box-pack: justify;
     justify-content: space-between;
   }
 

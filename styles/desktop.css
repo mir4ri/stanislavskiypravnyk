@@ -20,8 +20,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
 }
 
 .title {
@@ -41,21 +41,21 @@ body {
   background-color: #fcfcfc;
   border-bottom: 1px solid #e5e5e5;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 20px;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
 }
 
 .header .logo {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
   width: 250px;
   margin-left: 48px;
   color: rgba(79, 202, 21, 0.93);
@@ -68,8 +68,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+      justify-content: center;
 }
 
 .header .nav a {
@@ -94,7 +94,7 @@ body {
   -webkit-transition: all 0.1s ease;
   transition: all 0.1s ease;
   -webkit-transition-duration: 0.47s;
-          transition-duration: 0.47s;
+  transition-duration: 0.47s;
   opacity: 0;
   background-color: rgba(79, 202, 21, 0.93);
   left: 0;
@@ -164,8 +164,8 @@ a.anchor {
   margin-left: 56px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (50%)[2];
-      grid-template-columns: repeat(2, 50%);
+  -ms-grid-columns: 50% [2];
+  grid-template-columns: repeat(2, 50%);
   font-size: 32px;
   font-weight: 700;
 }
@@ -211,8 +211,8 @@ a.anchor {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
   }
   .title {
     margin-left: 36px;
