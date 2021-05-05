@@ -151,7 +151,7 @@ a.anchor {
   text-decoration: underline;
 }
 
-#reports .report:nth-child(2n) {
+#reports .report:nth-child(odd) {
   letter-spacing: 0px;
   font-size: 18px;
 }
