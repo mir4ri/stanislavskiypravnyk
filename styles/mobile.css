@@ -46,7 +46,7 @@
     font-size: 26px;
     padding-left: 12px;
   }
-  #reports .report:nth-child(3) {
+  #reports .report:nth-child(odd) {
     font-size: 15px;
   }
   #contacts {
